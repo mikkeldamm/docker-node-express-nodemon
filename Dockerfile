@@ -1,9 +1,11 @@
 FROM mhart/alpine-node
 
-RUN mkdir -p /server
-WORKDIR /server
-COPY server/package.json /server/
+RUN mkdir -p /app/server
+WORKDIR /app
+COPY package.json /app/
 
-RUN npm install --production
+RUN npm install
 
-COPY server/ server/
+COPY server/ /app/server/
+
+CMD ['npm', 'start']
