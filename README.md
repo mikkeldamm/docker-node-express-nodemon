@@ -19,7 +19,7 @@ Run `docker-compose build .`. It will
 
 ## Start
 
-Run `docker-compose up -d` to create and start the container. You can now visit [localhost:400](http://localhost:4000) and see the app running.
+Run `docker-compose up -d` to create and start the container. You can now visit [localhost:4000](http://localhost:4000) and see the app running.
 
 ## See changes
 
