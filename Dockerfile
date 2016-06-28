@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package.json /app/
 COPY nodemon.json /app/
 
-RUN npm install
+RUN npm install --production
 
 COPY server/ /app/server/
 
