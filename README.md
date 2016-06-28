@@ -26,7 +26,7 @@ Run `docker-compose up -d` to create and start the container. You can now visit 
 
 ## Start crash?
 
-The docker-compose is setup to mount the node_modules so it can crap the nodemon dependency and run it. Therefor it you haven't run `npm install` locally in your folder, then it will break. I'm trying to see if there can be a better solution for that.
+The docker-compose is setup to mount the node_modules, so it can crap the nodemon dependency, and run it. Therefor if you haven't run `npm install` locally in your folder, it will break. I'm trying to see if there can be a better solution for that, so there is no need to run npm install manually.
 
 ## Watch changes
 
