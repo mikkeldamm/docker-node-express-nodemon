@@ -1,0 +1,26 @@
+{
+  "name": "dockernodeexpressnodemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "./node_modules/.bin/nodemon -w server -e js -x 'npm start'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkeldamm/docker-node-express-nodemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkeldamm/docker-node-express-nodemon/issues"
+  },
+  "homepage": "https://github.com/mikkeldamm/docker-node-express-nodemon#readme",
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.9.2"
+  }
+}
