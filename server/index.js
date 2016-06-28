@@ -1,12 +1,12 @@
 const express = require('express');
 
 let app = express();
-let port = process.env.PORT || 4000;
+let port = process.env.PORT || 80;
 
 app.use(express.static('/server'));
 
 app.get('/', (req, res, next) => {
-    console.log('you hitted me - 1'); // change this to see nodemon changes
+    console.log('you hitted me - 2'); // change this to see nodemon changes
     res.sendFile('index.html', { root: __dirname });
 });
 
